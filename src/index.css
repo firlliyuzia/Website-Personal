@@ -1,0 +1,43 @@
+@import "tailwindcss";
+
+@layer base{
+    body{
+        font-family: "Poppins", sans-serif;
+    }
+}
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* PASTE KODE INI KE FILE CSS GLOBAL ANDA */
+
+@keyframes twinkle {
+  0%, 100% { opacity: 0.5; transform: scale(0.8); }
+  50% { opacity: 1; transform: scale(1.2); }
+}
+
+/* Hapus keyframes move-stars yang lama */
+
+/* Ganti dengan keyframes yang lebih sederhana, karena pergerakan utama akan dikontrol oleh JS */
+@keyframes fall {
+    to {
+        transform: translateY(100vh);
+    }
+}
+
+.star {
+  position: absolute;
+  background-color: white;
+  border-radius: 50%;
+  
+  /* Hapus move-stars di sini, kita akan menggunakan inline style di React */
+  animation: twinkle 4s infinite ease-in-out alternate; 
+  animation-delay: var(--delay); 
+  opacity: 0;
+}
+
+/* Ukuran bintang yang berbeda */
+.star-sm { width: 2px; height: 2px; }
+.star-md { width: 3px; height: 3px; }
+.star-lg { width: 4px; height: 4px; }
