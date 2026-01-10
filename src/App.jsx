@@ -149,7 +149,7 @@ function App() {
               <q className="text-xs italic text-zinc-400">Data is the new oil.</q>
             </div>
             <h1 className="text-5xl md:text-7xl font-bold mb-6 leading-tight">
-              Firlli Yuzia <br/> <span className="text-transparent bg-clip-text bg-gradient-to-r from-indigo-500 to-purple-500">Rahmanu</span>
+              Firlli Yuzia <br/> <span className="text-transparent bg-clip-text bg-linear-to-r from-indigo-500 to-purple-500">Rahmanu</span>
             </h1>
             <p className="text-base md:text-lg text-zinc-400 max-w-lg mx-auto md:mx-0 mb-8">
               Data Analyst & Front-End Developer. Berpengalaman dalam mengolah data teks (NLP) dan membangun antarmuka web yang modern.
