@@ -48,20 +48,20 @@ const listProyek = [
     tags: ["Python", "NLTK", "Machine Learning"]
   },
   {
-    nama: "E-Commerce Dashboard",
-    deskripsi: "Dashboard admin responsif untuk mengelola produk dan pesanan dengan analitik data real-time menggunakan React.",
+    nama: "Sistem Informasi Pemesanan Tempat Makand",
+    deskripsi: "aplikasi web pemesanan makanan menggunakan CodeIgniter & MySQL.  Mengelola proses pengembangan menggunakan ClickUp, membagi tugas ke dalam 10+ task pengembangan.  Sistem mendukung manajemen pesanan, data pelanggan, dan laporan transaksi.",
     kategori: "Web App",
-    gambar: "https://images.unsplash.com/photo-1460925895917-afdab827c52f?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    link: "#",
+    gambar: "https://unsplash.com/id/foto/orang-yang-memegang-smartphone-samsung-galaxy-putih-ThpyYkbL0-0",
+    link: "https://restoinnnn.000webhostapp.com/pesan/4",
     tags: ["React", "Tailwind"]
   },
   {
-    nama: "Travel Booking App",
-    deskripsi: "Aplikasi pemesanan tiket perjalanan dengan fitur pencarian rute dan integrasi peta.",
+    nama: "Proyek Sains Data",
+    deskripsi: "Aplikasi dan Penjelasan proyek sains data",
     kategori: "Mobile / Web",
-    gambar: "https://images.unsplash.com/photo-1436491865332-7a61a109cc05?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80",
-    link: "#",
-    tags: ["JavaScript", "API"]
+    gambar: "https://unsplash.com/id/foto/latar-belakang-abstrak-teknologi-peta-bumi-futuristik-mewakili-konsep-koneksi-global-m2pxgGc1Yas",
+    link: "https://firlliyuzia.github.io/psd/intro.html",
+    tags: ["Python", "Streamlit"]
   }
 ];
 
