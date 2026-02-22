@@ -157,7 +157,7 @@ function App() {
             <div className="flex flex-col sm:flex-row gap-4 justify-center md:justify-start">
               <a href="#proyek" className="bg-indigo-600 text-white px-8 py-4 rounded-xl font-bold hover:bg-indigo-700 transition flex items-center justify-center gap-2">
                 Lihat Proyek <i className="ri-arrow-right-up-line"></i>
-              </a>
+              </a href="https://drive.google.com/file/d/1ewPWNcj0vXruqFo_NCuOtxFuMyAfPORN/view?usp=sharing" target="_blank" rel="noopener noreferrer">
               <button className="bg-zinc-800 border border-zinc-700 px-8 py-4 rounded-xl font-bold hover:bg-zinc-700 transition">CV Saya</button>
             </div>
           </div>
